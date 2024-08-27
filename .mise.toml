@@ -6,6 +6,7 @@ go = '1.22.5'
 "go:github.com/go-delve/delve/cmd/dlv" = "latest"
 "go:golang.org/x/tools/cmd/godoc" = "latest"
 "go:gotest.tools/gotestsum" = "latest"
+"go:github.com/kisielk/errcheck" = "latest"
 
 [tasks.test]
 run = "gotestsum --format testdox ./... -shuffle on"
